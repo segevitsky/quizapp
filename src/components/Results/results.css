@@ -1,0 +1,40 @@
+.results-cont {
+    position: absolute;
+    padding-top: 4em;
+    top: 5.5em;
+    left: 0;
+    right: 0;
+    background: url(https://cdn.pixabay.com/photo/2014/07/19/06/48/digital-art-396825_1280.png);
+    background: url(https://cdn.pixabay.com/photo/2021/01/05/06/40/boat-5889919_1280.png);
+    background: url(https://cdn.pixabay.com/photo/2021/02/08/16/03/dinosaur-5995333_1280.png);
+    background-position-x: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 1s ease-in;
+    animation: slideDownIn 1s ease-in-out forwards;
+    /* background: url(https://cdn.pixabay.com/photo/2020/12/27/12/07/sunrise-5863751_1280.png); */
+    /* background-color: var(--clr-antique);
+    background-blend-mode: luminosity; */
+}
+
+.results-cont h1 {
+    color: var(--clr-white);
+    text-shadow: var(--bsTwo);
+}
+
+@media (min-width: 758px) {
+    .results-cont {
+        background-position-y: bottom;
+    }
+}
+@media (min-width: 1200px) {
+    .results-cont {
+        background-position-y: center;
+    }
+}
+
+

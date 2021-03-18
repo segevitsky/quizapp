@@ -1,0 +1,25 @@
+.answers {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0 2em;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.question {
+    text-align: center;
+    margin: 3rem auto;
+}
+
+.questions-cont {
+    opacity: 0;
+    animation: appear 750ms ease-in-out forwards;
+}
+
+@keyframes appear {
+    0% { opacity: 0}
+    25% { opacity: .25}
+    50% { opacity: .5}
+    75% { opacity: .75}
+    100% { opacity: 1}
+}

@@ -1,0 +1,13 @@
+.home {
+    margin: 2em;
+    padding: 1em;
+    box-shadow: var(--bs);
+    border-radius: 1em;
+}
+.app-header {
+    text-align: center;
+    margin-top: 2rem;
+    text-shadow: var(--bs);
+    color: rgb(155,50,50);
+
+}

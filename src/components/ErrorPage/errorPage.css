@@ -1,0 +1,8 @@
+.error {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 25%;
+    padding-top: 25%;
+    color: white;
+    text-shadow: var(--bs);
+}

@@ -1,0 +1,40 @@
+.answer-label {
+    display: flex;
+    align-items: center;
+    background-color: var(--clr-white);
+    margin-bottom: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: var(--bs);
+    position: relative;
+    cursor: pointer;
+}
+
+
+.answer-label::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: #ffa3cb;
+    width: 0;
+    transition: all 500ms linear;
+}
+
+.answer-label:hover::after {
+    width: 100%;
+    opacity: .5;
+}
+
+.answer-label p {
+    background-color: var(--clr-white);
+}
+
+
+
+.answer-label input {
+    margin-right: 1em;
+    border: 1px solid black;
+    margin-left: 1em;
+    cursor: pointer;
+}

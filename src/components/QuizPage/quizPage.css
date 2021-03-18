@@ -1,0 +1,12 @@
+.quiz-page {
+    position: relative;
+}
+
+.quiz-page-header {
+    text-align: center;
+    background-color:white;
+    padding: 1em 2em;
+    margin-top: 0;
+    box-shadow: var(--bs);
+    text-shadow: var(--bs);
+}
